@@ -14,6 +14,8 @@ import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
 import { NotFoundComponent } from './navegacao/not-found/not-found.component';
 import { DataBindingComponent } from './demos/data-binding/data-binding.component';
+import { ProdutoServices } from './produtos/produtos.service';
+import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { DataBindingComponent } from './demos/data-binding/data-binding.componen
     SobreComponent,
     ContatoComponent,
     NotFoundComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    ListaProdutoComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { DataBindingComponent } from './demos/data-binding/data-binding.componen
     [RouterModule.forRoot(rootRouterConfig, { useHash: false })]
   ],
   providers: [
+    ProdutoServices,
     { provide: APP_BASE_HREF, useValue: '/' }
   ],
   bootstrap: [AppComponent]
