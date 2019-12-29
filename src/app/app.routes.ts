@@ -13,6 +13,8 @@ export const rootRouterConfig: Routes = [
     { path: 'sobre', component: SobreComponent },
     { path: 'feature-data-binding', component: DataBindingComponent },
     { path: 'produtos', component: ListaProdutoComponent },
+    { path: 'produto-detalhe/:id ', component: ListaProdutoComponent },
+    { path: 'carrinho/:id ', component: ListaProdutoComponent },
 
     { path: '404', component: NotFoundComponent },
     { path: '**', redirectTo: '/404' },
