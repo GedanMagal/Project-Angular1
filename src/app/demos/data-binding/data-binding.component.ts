@@ -25,6 +25,4 @@ export class DataBindingComponent{
   //   this.nome = event.target.value;
 
   // }
-
-
 }

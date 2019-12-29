@@ -4,6 +4,10 @@ import { RouterModule } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import {  HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import  localePt from '@angular/common/locales/pt';
+registerLocaleData(localePt);
+
 
 
 import { AppComponent } from './app.component';
