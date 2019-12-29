@@ -6,83 +6,96 @@
             "price": " 22.35 ",
             "productId": "102",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": true,
+            "promoprice": "10"
         },
         {
-            
             "nome": "DELUXE LOW-SODIUM COOKED HAM ",
             "plu_upc": "",
             "price": " 5.25 ",
             "productId": "159",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": false,
+            "promoprice": "10"
         },
         {
-            
             "nome": "DELUXE LOW-SODIUM WHOLE HAM",
             "plu_upc": "",
             "price": " 2.15 ",
             "productId": "105",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": true,
+            "promoprice": "10"
         },
         {
-            
             "nome": "SMOKED VIRGINA HAM",
             "plu_upc": "",
             "price": " 3.99 ",
             "productId": "156",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": true,
+            "promoprice": "10"
         },
         {
-            
             "nome": "HONEY MAPLE HAM",
             "plu_upc": "",
             "price": " 15.55 ",
             "productId": "150",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": true,
+            "promoprice": "10"
         },
         {
-            
             "nome": "HONEY MAPLE HAM 1/2",
             "plu_upc": "",
             "price": " 35.15 ",
             "productId": "151",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": true,
+            "promoprice": "10"
         },
         {
-            
             "nome": "BAVARIAN SMOKED HAM ",
             "plu_upc": "",
             "price": " 45.15 ",
             "productId": "166",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": false,
+            "promoprice": "10"
         },
         {
-            
             "nome": "BLACK FOREST BEECHWOOD HAM L/S",
             "plu_upc": "",
             "price": " 99.99 ",
             "productId": "11005",
             "catId": "1",
-            "imagem": "teste.png"
+            "imagem": "teste.png",
+            "promocao": false,
+            "promoprice": "10"
         },
         {
-            
             "nome": "TAVERN SMOKED HAM",
             "plu_upc": "",
             "price": " 44.99 ",
             "productId": "158",
             "catId": "1",
-            "imagem": "teste.png"
-        }   
-        
+            "imagem": "teste.png",
+            "promocao": false,
+            "promoprice": "10"
+        }
     ],
     "posts": [
-        { "id": 1, "title": "json-server", "author": "typicode" }
-      ]
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ]
 }
